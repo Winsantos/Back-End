@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de reserva</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="login">
+
+        <h1>Reserva de Livros</h1>
+
+        <label for="titulo"> Título do livro:
+            <input type="text" id="titulo" placeholder="Digite o título do livro">
+        </label>
+
+        <label for="nome"> Nome do aluno:
+            <input type="text" id="nome" placeholder="Digite seu nome">
+        </label>
+
+        <label for="codigo"> Código da Reserva:
+            <input type="number"  id="codigo" placeholder="Código de reserva">
+        </label>
+
+    <button id="enviar" >Enviar</button>
+    </div>
+
+    <div class="cadastrado">
+
+        <h2>Confirmação de retirada!</h2>
+        
+        <label for="codigoCadastro"> Código cadastrado:
+            <input type="number" id="codigoCadastro" placeholder="Código da Reserva">
+        </label>
+
+        <label for="nomeCadastrado"> Nome cadastrado:
+            <input type="text" id="nomeCadastrado" placeholder="Nome do Aluno">
+        </label>
+    </div>
+</body>
+</html>
